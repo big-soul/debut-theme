@@ -1,0 +1,45 @@
+{
+  "name": "bigsoul-debut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/big-soul/debut-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/big-soul/debut-theme/issues"
+  },
+  "homepage": "https://github.com/big-soul/debut-theme#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.12.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "axios": "^0.21.1",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "easyzoom": "^2.5.3",
+    "file-loader": "^4.1.0",
+    "js-cookie": "^2.2.1",
+    "slick-carousel": "^1.8.1",
+    "url-parse": "^1.4.7"
+  }
+}
