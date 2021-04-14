@@ -1,35 +1,74 @@
 {
   "current": {
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-big.png",
+    "checkout_logo_size": "small",
+    "checkout_accent_color": "#3a3a3a",
+    "checkout_button_color": "#000000",
     "sections": {
       "header": {
         "type": "header",
-        "settings": {}
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo-big.png",
+          "logo_max_width": 180,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Anuncia algo aquí",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
       },
       "hero-1": {
         "type": "hero",
         "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
           "hero_size": "large",
-          "text_size": "large"
+          "text_size": "large",
+          "title": "Imagen con texto superpuesto",
+          "text": "<p>Usa el texto superpuesto para darles información útil a tus clientes sobre tu marca. Selecciona imágenes y textos que se relacionen con tu estilo e historia.<\/p>",
+          "button_label": ""
         }
       },
       "feature-row": {
         "type": "feature-row",
-        "settings": {}
+        "settings": {
+          "layout": "left",
+          "title": "Imagen con texto",
+          "text": "<p>Vincula un texto largo con una imagen para dar visibilidad a tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad, estilo, o incluso ofrece una reseña.<\/p>",
+          "button_label": ""
+        }
       },
       "feature-columns": {
         "type": "feature-columns",
         "blocks": {
           "feature-columns-0": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Agregar un título o eslogan",
+              "text": "<p>Comparte entradas de blogs, productos o promociones con tus clientes. Usa este texto para describir productos, compartir detalles sobre la disponibilidad y el estilo, o como un espacio para mostrar reseñas recientes o preguntas frecuentes.<\/p>",
+              "button_label": ""
+            }
           },
           "feature-columns-1": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Agregar un título o eslogan",
+              "text": "<p>Comparte entradas de blogs, productos o promociones con tus clientes. Usa este texto para describir productos, compartir detalles sobre la disponibilidad y el estilo, o como un espacio para mostrar reseñas recientes o preguntas frecuentes.<\/p>",
+              "button_label": ""
+            }
           },
           "feature-columns-2": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Agregar un título o eslogan",
+              "text": "<p>Comparte entradas de blogs, productos o promociones con tus clientes. Usa este texto para describir productos, compartir detalles sobre la disponibilidad y el estilo, o como un espacio para mostrar reseñas recientes o preguntas frecuentes.<\/p>",
+              "button_label": ""
+            }
           }
         },
         "block_order": [
@@ -38,19 +77,31 @@
           "feature-columns-2"
         ],
         "settings": {
-          "title": ""
+          "title": "",
+          "align_text": "left"
         }
       },
       "collection": {
         "type": "collection",
         "settings": {
-          "grid": 4
+          "title": "Colección destacada",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "hero-2": {
         "type": "hero",
         "settings": {
-          "text_size": "large"
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "large",
+          "title": "Imagen con texto superpuesto",
+          "text": "<p>Usa el texto superpuesto para darles información útil a tus clientes sobre tu marca. Selecciona imágenes y textos que se relacionen con tu estilo e historia.<\/p>",
+          "button_label": ""
         }
       },
       "quotes": {
@@ -58,15 +109,24 @@
         "blocks": {
           "quotes-0": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
           },
           "quotes-1": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
           },
           "quotes-2": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
           }
         },
         "block_order": [
@@ -83,15 +143,24 @@
         "blocks": {
           "image-bar-0": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
           },
           "image-bar-1": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
           },
           "image-bar-2": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
           }
         },
         "block_order": [
@@ -99,18 +168,25 @@
           "image-bar-1",
           "image-bar-2"
         ],
-        "settings": {}
+        "settings": {
+          "section_height": "medium"
+        }
       },
       "footer": {
         "type": "footer",
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "settings": {}
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
           },
           "footer-1": {
             "type": "newsletter",
-            "settings": {}
+            "settings": {
+              "title": "¡Ingresa tú email y recibe ofertas y promociones!"
+            }
           }
         },
         "block_order": [
@@ -118,7 +194,19 @@
           "footer-1"
         ],
         "settings": {
-          "show_payment_icons": true
+          "show_payment_icons": false,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
         }
       }
     },

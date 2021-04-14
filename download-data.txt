@@ -1,0 +1,2 @@
+theme download --env=production config/settings_data.json --no-ignore
+theme download --env=production locales --no-ignore

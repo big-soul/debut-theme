@@ -253,7 +253,7 @@
       "edit_address": "Editar dirección",
       "first_name": "Nombre",
       "last_name": "Apellido",
-      "company": "Empresa",
+      "company": "Cédula",
       "address1": "Dirección",
       "address2": "Apartamento, suite, etc.",
       "city": "Ciudad",
@@ -418,6 +418,17 @@
       "pick_up_currently_unavailable": "Retiro no disponible actualmente",
       "pick_up_available_at_html": "Retiro disponible en <strong>{{ location_name }}<\/strong>",
       "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <strong>{{ location_name }}<\/strong>"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "company_label": "Cédula",
+        "optional_company_label": "Cédula"
+      },
+      "field_errors": {
+        "address_company_blank": "Introduce tu cédula"
+      }
     }
   }
 }
